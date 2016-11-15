@@ -109,21 +109,23 @@ body > main {
 
 .user-card nav li {
   float: left;
-  width: calc(33% - 2rem);
+  width: 33%;
+  text-align: left;
 }
 
-.user-card nav li:first-child {
-  margin-right: 1rem;
+.user-card nav li:nth-child(2) {
+  text-align: center;
 }
 
 .user-card nav li:last-child {
-  float: right;
+  text-align: right;
 }
 
 .user-card nav a {
   color: #1a1a1a;
   background-color: #e6e6e6;
-  display: block;
+  display: inline-block;
+  width: calc(100% - .666rem);
   text-align: center;
   padding: 1rem 0;
   text-decoration: none;
